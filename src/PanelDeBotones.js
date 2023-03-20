@@ -10,7 +10,7 @@ export default function panelDeBotones ({clickHandle}) {
     return (
         <div className="component-button-panel">
           <div>
-            <Button name="ln" clickHandle={handleClick} cient/>
+            <Button name="ASin" clickHandle={handleClick} cient/>
             <Button name="Sin" clickHandle={handleClick} cient/>
             <Button name="AC" clickHandle={handleClick} gray/>
             <Button name="+/-" clickHandle={handleClick} gray/>
@@ -18,7 +18,7 @@ export default function panelDeBotones ({clickHandle}) {
             <Button name="/" clickHandle={handleClick} orange/>
           </div>
           <div>
-            <Button name="|/x" clickHandle={handleClick} cient/>
+            <Button name="ACos" clickHandle={handleClick} cient/>
             <Button name="Cos" clickHandle={handleClick} cient/>
             <Button name="7" clickHandle={handleClick} />
             <Button name="8" clickHandle={handleClick} />

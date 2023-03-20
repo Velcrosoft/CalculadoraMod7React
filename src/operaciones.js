@@ -78,6 +78,15 @@ export default function operaciones(estado, nombreDeBoton) {
       return {}
   
     }
+    if (nombreDeBoton === "ASin") {
+
+      if (estado.siguiente) return { siguiente: (Math.asin(estado.siguiente)).toString() }
+  
+      if (estado.total) return { total: (Math.asin(estado.siguiente)).toString() }
+  
+      return {}
+  
+    }
     if (nombreDeBoton === "Cos") {
 
       if (estado.siguiente) return { siguiente: (Math.cos(estado.siguiente)).toString() }
@@ -87,6 +96,16 @@ export default function operaciones(estado, nombreDeBoton) {
       return {}
   
     }
+    if (nombreDeBoton === "ACos") {
+
+      if (estado.siguiente) return { siguiente: (Math.acos(estado.siguiente)).toString() }
+  
+      if (estado.total) return { total: (Math.acos(estado.siguiente)).toString() }
+  
+      return {}
+  
+    }
+
     if (nombreDeBoton === "Tan") {
 
       if (estado.siguiente) return { siguiente: (Math.tan(estado.siguiente)).toString() }
