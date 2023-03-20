@@ -1,0 +1,7 @@
+.comoponent-app {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 77vh;
+    padding: 10px 0px;
+}
